@@ -42,7 +42,7 @@ Fila* fila_criar(int tamanho) {
 
 /*
 Destrói a fila  
-@return endereço da fila criada e inicializada
+@return 
 */
 void fila_destruir(Fila* f) {
     free(f);
